@@ -1,0 +1,21 @@
+public class Main {
+    public static void main(String[] args) {
+        int age = 24;
+        boolean ch = age > 2 && age < 7;
+        boolean sc = age >= 7 && age < 18;
+        boolean un = age >= 18 && age < 24;
+        boolean wo = age >= 24;
+        if (ch) {
+            System.out.println("Он ходит в детскй сад");
+        }
+        if (sc) {
+            System.out.println("Он ходит в школу");
+        }
+        if (un) {
+            System.out.println("Он ходит в университет");
+        }
+        if (wo) {
+            System.out.println("Он ходит на работу");
+        }
+    }
+        }

@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        int one = 0;
+        int two = 9;
+        int three = 7;
+        if (one>two)
+            if (one>three) {
+                System.out.println("больше всех "+one);}
+            else {
+            System.out.println("больше всех "+three);}
+        else if (two<three){
+            System.out.println("больше всех "+three);}
+        else {System.out.println("больше всех "+two);
+        }
+    }
+}

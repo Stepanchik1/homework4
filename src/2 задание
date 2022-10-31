@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+int age = 32;
+if (age<=6) {
+    System.out.println("Ребенок собирается в школу");}
+if (age>=18) {
+    System.out.println("Ребенок закончил школу");}
+if (age>=24) {
+    System.out.println("Человек ищет работу");}
+    }}

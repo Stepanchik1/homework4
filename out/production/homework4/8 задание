@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        int age = 14;
+        boolean ch = age < 5;
+        boolean te = age >= 6 && age < 15;
+        boolean hu = age >= 15;
+        if (ch) {
+            System.out.println("Пайди отсюда");}
+        if (te) {
+            System.out.println("Найди взрослого");}
+        if (hu) {
+            System.out.println("Давай залетай");}
+
+    }
+    }

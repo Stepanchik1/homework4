@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        int A = 120;
+        if (A<=60){
+            System.out.println("Есть сидячие места");}
+            if (A>60&&A<120){
+                System.out.println("Есть стоячие места");}
+        if (A>=120){
+            System.out.println("Мест нет");}
+        }}

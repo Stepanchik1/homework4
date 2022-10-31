@@ -1,0 +1,28 @@
+public class Main {
+    public static void main(String[] args) {
+        int one = 1;
+        int two = 5;
+        int three = 2;
+boolean one_two = one>two;
+boolean one_three = one>three;
+boolean two_three = two>three;
+        boolean two_one = two>one;
+        boolean three_one = three>one;
+        boolean three_two = three>two;
+boolean oneTwo = one==two;
+boolean oneThree = one==three;
+boolean twoThree = two==three;
+if (oneTwo&&oneThree&&twoThree) {
+    System.out.println("все равны "+one);}
+    else {
+
+if ((one_two&&one_three)||(one_two&&twoThree)||(oneTwo&&two_three)||(oneThree&&one_two)) {
+    System.out.println(one+" больше всех");}
+else {
+if ((two_three&&two_one)||(two_three&&oneThree)||(twoThree&&two_one)||(oneTwo&&one_three)) {
+    System.out.println(two+" больше всех");} else {
+if ((three_one&&three_two)||(three_one&&oneTwo)||(oneThree&&one_two)||(twoThree&&two_one)) {
+    System.out.println(three+" больше всех");}}}}
+
+    }
+}

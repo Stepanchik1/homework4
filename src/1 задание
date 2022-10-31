@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        int vozrast = 18;
+        if (vozrast < 18) {
+            System.out.println("вы еще не достигли совершеннолетия, сорри");
+        }
+        if (vozrast >= 18) {
+            System.out.println("Поздравляем с совершеннолетием!");
+        }
+    }
+}
